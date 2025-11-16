@@ -1,0 +1,82 @@
+1. Phishing Email Sample
+
+Description:
+
+Sender Name: People’s Bank
+
+Sender Email: Suspicious / fake domain
+
+Subject: “Your profile has been locked”
+
+Requests sensitive info: ATM, PIN, SSN, Account Number
+
+Urgent / threatening message
+
+2. Sender Email Analysis
+
+Observation:
+
+Sender name looks real but email address is spoofed
+
+Fake domain
+
+3. Email Header Analysis
+
+Observation:
+
+Received From: Suspicious server
+
+SPF: Failed
+
+DKIM: Not signed
+
+DMARC: Failed
+
+4. Suspicious Links / Attachments
+
+Observation:
+
+Display URL differs from actual URL
+
+Display: https://peoplesbank.com/login
+
+Actual: http://phishingsite.com/login
+
+Attachments like .zip or .exe are suspicious
+
+5. Email Content Analysis
+
+Observation:
+
+Urgent / Threatening language: “Immediate action required”
+
+Grammar / Spelling mistakes: “profi le” etc.
+
+Generic greeting: “Dear Customer”
+
+6. Phishing Traits Summary
+Indicator	Observed Detail
+Suspicious sender	Fake bank domain
+Header anomaly	SPF / DMARC failed
+Suspicious link	Real URL differs from displayed
+Urgent / Threatening text	“Immediate action required”
+Grammar / Spelling errors	“profi le” etc.
+7. Conclusion
+
+Email shows multiple phishing indicators
+
+Do not click links or provide personal info
+
+Report as phishing
+
+8. Text-based Evidence (Screenshots Not Included)
+
+Email requests sensitive info (ATM, PIN, SSN)
+
+Urgent/fear-inducing language
+
+Grammar mistakes
+
+Fake sender and domain
+
+Old copyright footer
